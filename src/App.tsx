@@ -4,8 +4,8 @@ import { IData_SnippetNews } from "./types/newsTypes";
 const mockNews: IData_SnippetNews[] = [
   {
     ID: 1,
-    TI: "OpenAI представила GPT-5: что нового?",
-    AB: "Компания OpenAI анонсировала новую модель GPT-5, обладающую улучшенными когнитивными способностями и расширенной поддержкой мультимодальности.",
+    TI: "OpenAI introduced GPT-5: what's new?",
+    AB: "OpenAI has announced a new GPT-5 with improved cognitive capabilities and enhanced multimodality support.",
     URL: "https://openai.com/gpt-5",
     DOM: "openai.com",
     DP: "2025-04-14T12:34:56Z",
@@ -16,7 +16,7 @@ const mockNews: IData_SnippetNews[] = [
       { value: "GPT-5", count: 3 },
       { value: "ИИ", count: 2 },
     ],
-    AU: ["Иван Иванов"],
+    AU: ["Name"],
     CNTR: "USA",
     CNTR_CODE: "US",
     SENT: "positive",
@@ -28,8 +28,8 @@ const mockNews: IData_SnippetNews[] = [
     ],
     FAV: "https://openai.com/favicon.ico",
     HIGHLIGHTS: [
-      "Компания <kw>OpenAI</kw> объявила о запуске <kw>GPT-5</kw>.",
-      "Новая модель отличается высокой <kw>точностью</kw> и скоростью.",
+      "<kw>OpenAI</kw> has announced the launch of the <kw>GPT-5</kw>.",
+      "The new model features high <kw>precision</kw> and speed.",
     ],
   },
   {

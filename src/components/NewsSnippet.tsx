@@ -120,7 +120,7 @@ const NewsSnippet: React.FC<Props> = ({ data }) => {
           rel="noopener noreferrer"
           className={styles.link}
         >
-          Читать новость
+          Read news
         </a>
         <span className={styles.reach}>
           Охват: {data.REACH.toLocaleString()}
